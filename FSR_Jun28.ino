@@ -28,5 +28,5 @@ void loop() {
   }
 
   // Optional small delay to reduce CPU load
-  delay(50);
+  delay(100);
 }
