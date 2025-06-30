@@ -1,8 +1,7 @@
-#define FORCE_SENSOR_PIN1 A0
-#define FORCE_SENSOR_PIN2 A1
-#define FORCE_SENSOR_PIN3 A2
-#define FORCE_SENSOR_PIN4 A3
+#define FORCE_SENSOR_PIN1 A0 // Left force sensor
+#define FORCE_SENSOR_PIN2 A1 // Right force sensor
 
+// Store previous readings for comparison
 int prevReading1 = -1;
 int prevReading2 = -1;
 
@@ -29,5 +28,5 @@ void loop() {
   }
 
   // Optional small delay to reduce CPU load
-  delay(50);
+  delay(100);
 }
