@@ -1,6 +1,7 @@
-#define FORCE_SENSOR_PIN1 A0
-#define FORCE_SENSOR_PIN2 A1
+#define FORCE_SENSOR_PIN1 A0 // Left force sensor
+#define FORCE_SENSOR_PIN2 A1 // Right force sensor
 
+// Store previous readings for comparison
 int prevReading1 = -1;
 int prevReading2 = -1;
 
