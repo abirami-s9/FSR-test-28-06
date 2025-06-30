@@ -1,7 +1,5 @@
 #define FORCE_SENSOR_PIN1 A0
 #define FORCE_SENSOR_PIN2 A1
-#define FORCE_SENSOR_PIN3 A2
-#define FORCE_SENSOR_PIN4 A3
 
 int prevReading1 = -1;
 int prevReading2 = -1;
